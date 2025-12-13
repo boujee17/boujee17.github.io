@@ -1,0 +1,20 @@
+{{> header}}
+{{> nav}}
+
+<main class="container">
+  <h1>Upcoming Trips</h1>
+  <div class="trip-grid">
+    {{#each trips}}
+      <article class="trip-card">
+        {{#if image}}<img src="{{image}}" alt="{{name}}">{{/if}}
+        <h2><a href="/travelers/{{code}}">{{name}}</a></h2>
+        <p><strong>{{length}}</strong> days — starts {{start}}</p>
+        <p>Resort: {{resort}}</p>
+        <p><strong>${{price}}</strong> per person</p>
+        <p>{{shortDescription}}</p>
+      </article>
+    {{/each}}
+  </div>
+</main>
+
+{{> footer}}

@@ -1,0 +1,27 @@
+{{> header}}
+{{> nav}}
+
+<main class="container">
+  <article class="trip-detail">
+    {{#if trip.image}}<img src="{{trip.image}}" alt="{{trip.name}}">{{/if}}
+    <h1>{{trip.name}}</h1>
+    <ul>
+      <li><strong>Code:</strong> {{trip.code}}</li>
+      <li><strong>Length:</strong> {{trip.length}} days</li>
+      <li><strong>Start:</strong> {{trip.start}}</li>
+      <li><strong>Resort:</strong> {{trip.resort}}</li>
+      <li><strong>Price:</strong> ${{trip.price}} / person</li>
+    </ul>
+
+    {{#if trip.itinerary}}
+      <h2>Itinerary</h2>
+      <ol>
+        {{#each trip.itinerary}}
+          <li>{{this}}</li>
+        {{/each}}
+      </ol>
+    {{/if}}
+  </article>
+</main>
+
+{{> footer}}
