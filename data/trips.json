@@ -1,0 +1,39 @@
+[
+    {
+      "code": "HKG2025",
+      "name": "Hong Kong Highlights",
+      "length": 5,
+      "start": "2025-10-15",
+      "resort": "Harbour Grand",
+      "price": 1299,
+      "image": "/images/deluxe.jpg",
+      "shortDescription": "Skyline views, temples, and world-class dim sum.",
+      "itinerary": [
+        "Arrival & harbor cruise",
+        "Peak & temples",
+        "Markets tour",
+        "Lantau day trip",
+        "Free day & depart"
+      ]
+    },
+    {
+      "code": "CUN2026",
+      "name": "Cancún Escape",
+      "length": 7,
+      "start": "2026-01-05",
+      "resort": "Grand Fiesta Americana",
+      "price": 999,
+      "image": "/images/kayak.jpg",
+      "shortDescription": "White-sand beaches and Mayan ruins.",
+      "itinerary": [
+        "Check-in",
+        "Beach day",
+        "Chichén Itzá",
+        "Cenotes",
+        "Isla Mujeres",
+        "Resort day",
+        "Depart"
+      ]
+    }
+  ]
+  

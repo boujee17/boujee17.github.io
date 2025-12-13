@@ -1,0 +1,83 @@
+[
+    {
+      "tripCode": "GALR250214",
+      "name": "Gale Reef Adventure",
+      "length": 7,
+      "start": "2025-02-14",
+      "resort": "Emerald Bay",
+      "perPerson": 799,
+      "image": "reef1.jpg",
+      "description": "Seven days of guided reef diving and snorkeling with optional night dives."
+    },
+    {
+      "tripCode": "CUNM250320",
+      "name": "Cenotes & Mayan Ruins",
+      "length": 5,
+      "start": "2025-03-20",
+      "resort": "Playa del Sol",
+      "perPerson": 949,
+      "image": "cancun1.jpg",
+      "description": "Explore cenote caverns by day, visit Chichen Itza at sunset."
+    },
+    {
+      "tripCode": "BALI250501",
+      "name": "Bali Surf & Culture",
+      "length": 10,
+      "start": "2025-05-01",
+      "resort": "Uluwatu Cliffs",
+      "perPerson": 1599,
+      "image": "bali1.jpg",
+      "description": "Beginner-to-advanced surf coaching, temple tours, and rice terrace hikes."
+    },
+    {
+      "tripCode": "ALPS250615",
+      "name": "Alpine Peaks Trek",
+      "length": 8,
+      "start": "2025-06-15",
+      "resort": "Zermatt Basecamp",
+      "perPerson": 1380,
+      "image": "alps1.jpg",
+      "description": "Guided hikes with glacier views, cable car summit day, and spa recovery."
+    },
+    {
+      "tripCode": "SAFA250901",
+      "name": "Serengeti Safari",
+      "length": 6,
+      "start": "2025-09-01",
+      "resort": "Savanna Plains Lodge",
+      "perPerson": 2199,
+      "image": "safari1.jpg",
+      "description": "Big five game drives, hot-air balloon sunrise, and cultural village visit."
+    },
+    {
+      "tripCode": "ICEL251001",
+      "name": "Iceland Fire & Ice",
+      "length": 7,
+      "start": "2025-10-01",
+      "resort": "Reykjavik Hub",
+      "perPerson": 1800,
+      "image": "iceland1.jpg",
+      "description": "Glacier hike, Blue Lagoon, aurora chasing, and black-sand beaches."
+    },
+    {
+      "tripCode": "TOKY251116",
+      "name": "Tokyo City Lights",
+      "length": 6,
+      "start": "2025-11-16",
+      "resort": "Shinjuku Sky Hotel",
+      "perPerson": 1490,
+      "image": "tokyo1.jpg",
+      "description": "Street food tour, anime district walk, and day trip to Mount Fuji."
+    },
+    {
+      "tripCode": "NZAD260102",
+      "name": "New Zealand Adventure Loop",
+      "length": 12,
+      "start": "2026-01-02",
+      "resort": "Queenstown Base",
+      "perPerson": 2599,
+      "image": "nz1.jpg",
+      "description": "Bungee, fjord cruise, glowworm caves, and Hobbiton film set."
+    }
+  ]
+  
