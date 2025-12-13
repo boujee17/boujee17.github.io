@@ -1,0 +1,21 @@
+<button *ngIf="auth.isLoggedIn()" (click)="logout()">
+  Logout
+</button>
+
+<h2>Trips</h2>
+
+<p style="margin:12px 0;">
+  <a *ngIf="auth.isLoggedIn()" routerLink="/trips/add">+ Add Trip</a>
+</p>
+
+<p *ngIf="!loading && trips.length === 0">No trips found.</p>
+
+<ul *ngIf="!loading && trips.length">
+  <li *ngFor="let t of trips">
+    <strong>{{ t.name }}</strong> — {{ t.resort }} ({{ t.length }} days) |
+    <span>$</span>{{ t.perPerson }} pp • code: {{ t.tripCode }}
+    &nbsp;
+    <a *ngIf="auth.isLoggedIn()" [routerLink]="['/trips', t.tripCode, 'edit']">Edit</a>
+    <button *ngIf="auth.isLoggedIn()" (click)="deleteTrip(t.tripCode)">Delete</button>
+  </li>
+</ul>
